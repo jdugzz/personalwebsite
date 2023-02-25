@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}Jacob Douglas (Esq., or whatever){% endblock %}</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Italiana&family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+    {% block content%}
+    <div id="main_grid">
+    <div id="left_grid_div">
+    <div id='about_name' class="about">JACOB DOUGLAS</div>
+    <div id='about_title' class="about">Web Developer, Recovering Attorney</div>
+    <div id='about_about' class="about">Creating unique and engaging webspaces and applications</div>
+    </div>
+    <div id="right_grid_div">
+    <a href="about" class="link">About</a><br>
+    <a href="contact" class="link">Contact</a><br>
+    <a href="work" class="link">Work</a><br>
+    </div>
+    </div>
+    {% endblock %}
+</body>
+</html>
