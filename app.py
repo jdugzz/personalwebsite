@@ -1,5 +1,7 @@
 from flask import Flask, request, render_template, redirect
 
+#hello other computer
+
 app = Flask(__name__)
 app.config['SECRET_KEY'] = 'asdfasdf'
 
